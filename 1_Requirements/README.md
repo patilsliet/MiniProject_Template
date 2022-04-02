@@ -41,18 +41,18 @@ System design is a solution for how to approach to the creation of a new system.
 
 | ID | Description | Status |
 |----|-------------|--------|
-| HR_01|Operating system(Windos 10/Linux)|Implemented|
-| HR_02|C Language |Implemented |
-| HR_03|Pentium IV Processor | Implemented |
-| HR_04|RAM(512MB)|Implemented|
-|HR_05| Hard Disk(2Gb)|Implemented|
+| HR_01|User Shall be able to login the system.|Implemented|
+| HR_02|User Shall be able to book the ticket |Implemented |
+| HR_03|User Shall be able to view the available trains. | Implemented |
+| HR_04|User Shall be able to print the ticket|Implemented|
+|HR_05|User Shall be able to cancel the ticket|Implemented|
 ## Low Level Requirement 
 |ID|Description|Status|
 |--|-----------|------|
-|LR_01|	Functions to Add book	|Implemented |
-|LR_02|	Functions to View books availaible|	Implemented|
-|LR_03|	Functions to Search the book by ID|Implemented|
-|LR_04	|Functions to Update status of the book	|Implemented|
-|LR_05|	Functions to Delete the book by ID	|Implemented|
+|LR_01|	The user will be able to login successfully with the valid credential.	|Implemented |
+|LR_02|	If user entered the incorrect login credentials then ‘SORRY !!!! LOGIN IS UNSUCESSFUL’ message should be displayed.|	Implemented|
+|LR_03|If the wrong choice number is entered then message of ‘Invalid Choice’ should be displayed.|Implemented|
+|LR_04|If all the required details for the booking the ticket are not provided then reservation should be unsuccessful	|Implemented|
+|LR_05|	If the proper ticket holder name is provided then the ticket should be cancelled successfully.	|Implemented|
 
 
